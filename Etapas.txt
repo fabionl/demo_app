@@ -7,3 +7,51 @@ vi Gemfile  >>>>>
 gem 'rails', '3.0.9'
 gem 'sqlite3', '1.3.3'
 <<<<<
+bundle install
+
+git init
+git add .
+git commit -m "Initial commit"
+
+GitHub  >>>>>
+Criei um novo repositório.
+<<<<<
+git config --global user.name "Fabio Lima"
+git config --global user.mail fabionl@gmail.com
+touch README 
+git remote add origin git@github.com:fabionl/demo_app.git
+git push -u origin master
+>>>>>>>>
+No meu caso deu problema e tive de seguir a orientação no github para configurar o ssh.
+<<<<<<<<<
+
+rails generate scaffold User name:string email:string
+bundle exec rake db:migrate    >>>>>>
+Testei a versão rake utilizado pelo bundle e o padrao do sistema e eram iguais.
+a partir de agora, passo a usar o rake diretamente.
+<<<<<
+rails s
+Browser: localhost:3000  >>>>>>
+Abriu a página inicial do Rails.
+<<<<<<<
+rake -T db    >>>>>
+Comando do db disponíveis.
+<<<<<
+rake -T    >>>>>>
+Comandos disponíveis.
+<<<<<
+
+>>>>>>>
+Criei alguns users.
+<<<<<<<
+
+rails generate scaffold Micropost content:string user_id:integer
+rake db:migrate
+
+>>>>>>>
+Fazendo as alterações aos models.
+<<<<<<<
+
+
+
+
