@@ -1,0 +1,9 @@
+Retirado de: Ruby on Rails Tutorial - Learn Rails by Example
+
+rails new demo_app
+cd demo_app
+
+vi Gemfile  >>>>>
+gem 'rails', '3.0.9'
+gem 'sqlite3', '1.3.3'
+<<<<<
