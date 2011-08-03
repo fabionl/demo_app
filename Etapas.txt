@@ -52,6 +52,9 @@ rake db:migrate
 Fazendo as alterações aos models.
 <<<<<<<
 
+git add .
+git commit -a -m "Done with the demo app"
+git push
 
 
 
